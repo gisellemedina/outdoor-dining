@@ -1,0 +1,55 @@
+body,
+html {
+	margin: 5%;
+	background-color: #fee6ce;
+	display: inline-block; 
+}
+
+.cover-image-text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.cover-image-text {
+	background-image: url('outdoor-dining.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+ 	background-size: 100% 100%;
+ 	padding: 140px;
+
+	color: white;
+	font-family: 'Bison', serif;
+	font-weight: bolder;
+	font-size: 22px;
+	line-height: 200%;
+}
+
+.image-caption {
+	color: #e6550d;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
+.information {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.footer {
+	text-align: center;
+	color: #fee0d2;
+	background-color: #e6550d;
+	border-style: double;
+	border-width: 5px;
+	padding: 10px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	font-size: 12px;	
+}
+
+@media (min-width: 681px) {}
